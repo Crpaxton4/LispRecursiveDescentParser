@@ -1,0 +1,8 @@
+﻿(define (weather f)
+	(cond 
+		((> f 80) 'too-hot)
+		((> f 60) 'nice)
+		((< f 35) 'too-cold)
+		(else 'typical-seattle)
+	)
+)
